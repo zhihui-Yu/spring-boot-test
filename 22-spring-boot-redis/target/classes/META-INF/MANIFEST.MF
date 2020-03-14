@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: 22-spring-boot-redis
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: listener
+Implementation-Vendor-Id: com.yzh
+Build-Jdk: 1.8.0_202
+Implementation-URL: http://projects.spring.io/spring-boot/22-spring-bo
+ ot-redis/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
