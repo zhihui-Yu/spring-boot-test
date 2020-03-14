@@ -7,12 +7,9 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
-import javax.annotation.Resource;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.yzh.App;
@@ -22,15 +19,14 @@ import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 import redis.clients.jedis.exceptions.JedisConnectionException;
 
+/**
+ * 从网上 copy 的一个demo 模拟400张票 500人抢
+ * @author listener
+ *
+ */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(classes = App.class)
 public class RedisSETNX {
-	@Resource
-	private RedisTemplate<String, Object> redisTemplate;
-
-	/**
-	 * 模拟400张票 500人抢
-	 */
 	private static final String LOCK_SUCCESS = "OK";
 	private static final String SET_IF_NOT_EXIST = "NX";
 	private static final String SET_WITH_EXPIRE_TIME = "PX";
