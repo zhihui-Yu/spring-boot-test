@@ -30,6 +30,7 @@
         <module>16-spring-boot-springloader-devtools</module>
         <module>17-spring-boot-scheduled</module>
         <module>18-spring-boot-quartz</module>
+        <module>19-spring-boot-websocket</module>
         <module>20-spring-boot-data-jpa</module>
         <module>21-spring-boot-ehcache</module>
         <module>22-spring-boot-redis</module>

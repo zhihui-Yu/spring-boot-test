@@ -9,10 +9,6 @@
   <artifactId>01-spring-boot-hello</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  <properties>
-  	<java-version>1.7</java-version>
-  </properties>
-  
   <dependencies>
   	<dependency>
   		<groupId>org.springframework.boot</groupId>

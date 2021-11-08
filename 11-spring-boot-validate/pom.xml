@@ -9,9 +9,7 @@
   <artifactId>11-spring-boot-validate</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  <properties>
-  	<java-version>1.7</java-version>
-  </properties>
+
   
   <dependencies>
   	<dependency>

@@ -9,9 +9,7 @@
   <artifactId>12-spring-boot-error</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  <properties>
-  	<java-version>1.7</java-version>
-  </properties>
+
   
   <dependencies>
   	<dependency>
